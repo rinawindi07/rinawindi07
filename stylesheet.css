@@ -1,65 +1,96 @@
+body {
+    font-family: Open Sans,Arial,sans-serif;;
+}
+
 .header {
-    background-color: cadetblue;
-    color: cyan;
-    height: 90px;
+    background-color: rgb(243, 235, 235);
+    height: 80px;
+    width: auto;
+}
+
+.header-logo {
+    height: 80px;
+    float: left;
+    padding: 0px 100px;
 }
 
 li {
     list-style: none;
 }
 
-.title {
-    float: left;
-    font-size: 36px;
-    padding: 20px 40px;
+ul {
+    padding: 0px 30px;
 }
 
-.header-logo {
+.header-list li {
     float: right;
+    padding: 33px 20px;
 }
 
-.header-list li{
-    float: left;
-    padding: 33px 40px;
+.dev h1 {
+    color: coral;
+    font-size: 40px;
 }
 
-.main {
-    padding: 5px 80px 10px 80px;
-}
-
-.copy-container h1 {
-    font-size: 60px;
-}
-
-.contents {
+.home {
+    background-color: #f1dbdb;
     height: 500px;
-    margin-top: 100px;
+    padding: 40px;
 }
 
-.main-content h1 {
-    margin: 40px;
+.sample-home {
+    float: left;
+    height: 400px;
+    padding: auto 40px;
 }
 
-.soundcloud {
+.dev {
     float: right;
+    font-size: 15px;
+    padding: 50px;
+}
+
+.blog {
+    background-color: #ffffff;
+    height: 500px;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.blog-1 {
+    height: 400px;
+    float: left;
+    margin-right: 40px;
+}
+
+.review {
+    background-color: cornsilk;
+    height: 500px;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.review-book {
+    height: 350px;
+    float: left;
+    padding: auto 30px;
+}
+
+.review1 {
+    float: left;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.title {
+    font-size: 50px;
+    color: coral;
 }
 
 .footer {
-    background-color: #2f5167;
+    background-color: #043c61;
     color: #fff;
-    height: 120px;
-    padding: 40px;
-}
-  
-.footer-logo {
-    float: left;
-    font-size: 32px;
-}
-  
-.footer-list {
-    float: right;
-}
-  
-.footer-list li {
-    padding-bottom: 20px;
+    height: 30px;
+    margin-top: 40px;
+    text-align: center;
 }
